@@ -19,11 +19,11 @@ public class Application4 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        System.out.print("변경할 부서 아이디 입력 : ");
+        System.out.print("변경할 부서 아이디 입력 : D");
         String changeId = sc.nextLine();
         System.out.print("변경할 부서명 입력 : ");
         String changeTitle = sc.nextLine();
-        System.out.print("변경할 로케이션 번호 입력 : ");
+        System.out.print("변경할 로케이션 번호 입력 : L");
         String changeLocationId = sc.nextLine();
 
         DepartmentDTO changeDept = new DepartmentDTO();

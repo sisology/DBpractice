@@ -29,9 +29,9 @@
             department
         SET
             dept_title = ?,
-            location_id = ?
+            location_id = CONCAT('L', ?)
         WHERE
-            dept_id = ?
+            dept_id = CONCAT('D', ?)
     </entry>
     <entry key="deleteDept">
         DELETE FROM
